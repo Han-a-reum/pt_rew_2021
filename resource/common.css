@@ -1,0 +1,25 @@
+img {
+  display: block;
+}
+
+body {
+  background-color: EEF3FA;
+  background-size: 1920px;
+}
+
+.side-bar{
+  height: 1080px;
+}
+
+.s_bar_1_2{
+  position:absolute;
+  top: 38px;
+  left: 94px;
+}
+
+.menu_1{
+  position:absolute;
+  top: 284px;
+  left: 55px;
+
+}

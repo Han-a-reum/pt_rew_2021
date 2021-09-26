@@ -15,10 +15,10 @@
 </head>
 <body>
 <div class="site-wrap">
-  <header class="top-bar">
-    <a href="index.ssg.php"><img class="cursor-pointer" src="resource/img/menu_1<?=$pageCode == 'home' ? '_active' : ''?>.png" alt=""></a>
-    <a href="aboutMe.ssg.php"><img class="cursor-pointer" src="resource/img/menu_2<?=$pageCode == 'aboutMe' ? '_active' : ''?>.png" alt=""></a>
-    <a href="pf.ssg.php"><img class="cursor-pointer" src="resource/img/menu_3<?=$pageCode == 'pf' ? '_active' : ''?>.png" alt=""></a>
-    <a href="etc.ssg.php"><img class="cursor-pointer" src="resource/img/menu_4<?=$pageCode == 'etc' ? '_active' : ''?>.png" alt=""></a>
-    <a href="email.ssg.php"></a> 
-  </header>
+<header class="top-bar">
+<div class="side-bar flex fixed inset-0">
+  <img src="resource/img/s_bar_1_1.png" alt="">
+  <div class="s_bar_1_2"><img src="resource/img/s_bar_1_2.png" alt=""></div>
+  <a href="index.ssg.php"><img class="menu_1" src="resource/img/menu_1.png" alt=""></a>
+</div>
+</header>
