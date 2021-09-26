@@ -1,81 +1,24 @@
-<?php
-if ( !isset($pageTitle) ) {
-  $pageTitle = $siteTitle;
-}
-
-if ( !isset($pageDescription) ) {
-  $pageDescription = $siteDescription;
-}
-
-if ( !isset($pageKeywordsStr) ) {
-  $pageKeywordsStr = $siteKeywordsStr;
-}
-
-if ( !isset($pageThumbUrl) ) {
-  $pageThumbUrl = $siteThumbUrl;
-}
-?>
-
-<!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <!-- 구글 애널리틱스 시작 -->
-    <!-- 구글 애널리틱스 끝 -->
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title><?=$pageTitle?></title>
-    <meta name="title" content="<?=$pageTitle?>" />
-    <meta name="description" content="<?=$pageDescription?>" />
-    <meta name="keywords" content="<?=$pageKeywordsStr?>" />
-    <meta name="copyright" content="<?=$siteName?>" />
-
-    <!-- OPENGRAPH -->
-    <meta property="og:site_name" content="<?=$siteName?>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="<?=$pageTitle?>" />
-    <meta property="og:description" content="<?=$pageDescription?>" />
-    <meta property="og:image" content="<?=$pageThumbUrl?>" />
-    <meta property="og:image:alt" content="<?=$siteName?>" />
-    <meta property="og:image:width" content="486" />
-    <meta property="og:image:height" content="254" />
-
-    <!-- 반응형 필수 -->
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-
-    <!-- 라이브러리 불러오기 시작 -->
-    
-
-
-    <!-- 라이브러리 불러오기 끝 -->
-    
-
-    <link rel="stylesheet" href="css/common.css">
-    <script src="js/common.js" defer></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한아름 러쉬 리뉴얼</title>
+<!-- 테일윈드 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+<!-- 제이쿼리 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- 스와이프 불러오기 -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- 사이트 공통 JS -->
+<script src="resource/common.js" defer></script>
+<!-- 사이트 공통 CSS -->
+<link rel="stylesheet" href="resource/common.css">
 </head>
-
 <body>
-    
-<div class="body-content">
-
-    <!-- 탑바 시작 -->
-    <header class="top-bar">
-      
-    </header>
-    <!-- 탑바 시작 -->
-
-    <!-- 모바일 탑바 시작 -->
-    <header class="mobile-top-bar">
-      
-    </header>
-    <!-- 모바일 탑바 끝 -->
-  
-    <!-- 모바일 사이드 바 시작 -->
-    <aside class="mobile-side-bar">
-  
-    </aside>
-    <!-- 모바일 사이드 바 끝 -->
-  
-    <main>
+<div class="site-wrap">
+  <header class="top-bar">
+    <a href="index.ssg.php"><img class="cursor-pointer" src="resource/img/menu_1<?=$pageCode == 'home' ? '_active' : ''?>.png" alt=""></a>
+    <a href="aboutMe.ssg.php"><img class="cursor-pointer" src="resource/img/menu_2<?=$pageCode == 'aboutMe' ? '_active' : ''?>.png" alt=""></a>
+    <a href="pf.ssg.php"><img class="cursor-pointer" src="resource/img/menu_3<?=$pageCode == 'pf' ? '_active' : ''?>.png" alt=""></a>
+    <a href="etc.ssg.php"><img class="cursor-pointer" src="resource/img/menu_4<?=$pageCode == 'etc' ? '_active' : ''?>.png" alt=""></a>
+    <a href="email.ssg.php"></a> 
+  </header>
