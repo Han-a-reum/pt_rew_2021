@@ -63,3 +63,7 @@
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-2 > div::after {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
 }
+
+.bn_2_2{
+  border: 1px solid red;
+}

@@ -10,7 +10,7 @@
         <!-- Slides -->
         <div class="swiper-slide swiper-slide_1">
           <div style="background-image:url(resource/img/bn_2_1.png);">
-            <div><img src="resource/img/bn_2_2.png" alt=""></div>
+            <div class="bn_2_2"><img src="resource/img/bn_2_2.png" alt=""></div>
           </div>
         </div>
         <div class="swiper-slide">
