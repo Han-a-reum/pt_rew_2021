@@ -66,13 +66,12 @@
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-3 > div::after {
-  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+  background-image: linear-gradient(to right, #FFCD04 0%, #E74F19 100%);
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-4 > div::after {
-  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+  background-image: linear-gradient(to right, rgb(156, 156, 156) 0%, #000000 100%);
 }
-
 
 .bn_2_2{
   padding: 250px;
@@ -114,6 +113,15 @@ position:relative;
   animation-iteration-count: infinite;
   position:relative;
   }
+
+  .bn_4_1_2 {
+    padding: 280px;
+    left: 330px;
+    animation-name: floating;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    position:relative;
+    }
 
   .bn_5_1{
     margin-top: 50px;

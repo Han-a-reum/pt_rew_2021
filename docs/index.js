@@ -23,7 +23,7 @@ function SwiperBox1__init() {
           txt = "[EVENT] 다운로드 러쉬 9월";
         }
         else if ( index == 4 ) {
-          txt = "[EVENT] #낫랩고수 모여라!";
+          txt = "[EVENT] 다음을 기대하세요!";
         }
 
         className += ' index-' + index;
