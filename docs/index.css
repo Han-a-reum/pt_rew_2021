@@ -70,9 +70,8 @@
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-4 > div::after {
-  background-image: linear-gradient(to right, #fff 0%, #000000 100%);
+  background-image: linear-gradient(to right, rgb(117, 117, 117) 0%, #000000 100%);
 }
-
 
 .bn_2_2{
   position: absolute;
