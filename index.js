@@ -2,7 +2,7 @@ function SwiperBox1__init() {
   const swiper = new Swiper(".swiper-box-1 .swiper", {
     loop:true,
     autoplay: {
-      delay: 2500,
+      delay: 2800,
     },
     pagination: {
       el: ".swiper-pagination",
@@ -11,13 +11,19 @@ function SwiperBox1__init() {
         let txt = "";
 
         if ( index == 0 ) {
-          txt = "내용1";
+          txt = "[EVENT] 향기까지 취향대로";
         }
         else if ( index == 1 ) {
-          txt = "내용2";
+          txt = "[EVENT] 버터와 오일이 만나면?";
         }
         else if ( index == 2 ) {
-          txt = "내용3";
+          txt = "[EVENT] 할로윈 에디션 론칭!";
+        }
+        else if ( index == 3 ) {
+          txt = "[EVENT] 다운로드 러쉬 9월";
+        }
+        else if ( index == 4 ) {
+          txt = "[EVENT] #낫랩고수 모여라!";
         }
 
         className += ' index-' + index;
