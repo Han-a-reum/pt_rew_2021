@@ -114,3 +114,26 @@ position:relative;
   animation-iteration-count: infinite;
   position:relative;
   }
+
+  .bn_5_1{
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .bn_6_1{
+    width: 1620px;
+    margin-top: 150px;
+    position: absolute;
+    left: 300px;
+    right: auto;
+  }
+
+  .bn_7_1{
+    margin-top: 551px;
+    margin-left: 10px;
+  }
+
+  .bn_8_1{
+    margin-top: 140px;
+    margin-left: 10px;
+  }
