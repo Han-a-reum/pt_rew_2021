@@ -37,7 +37,7 @@
 </section>
 
 <section class="section section-2 mt-3">
-  <div class="con mx-auto px-3">
+  <div class="con mx-auto">
     <div class="bn_5_1">
       <img src="resource/img/bn_5_1.png" alt="">
     </div>
