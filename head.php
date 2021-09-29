@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="<?= $pageCode ?>.css">
 </head>
 
+<a class="return-top" href="#" style="right:15px; bottom:15px; position:fixed; z-index:9999;"><img src="resource/img/top_but.png" alt=""></a>
+
 <body>
   <div class="side-bar">
     <a class="logo" href="index.ssg.php"><img src="resource/img/logo_1.png" alt=""></a>

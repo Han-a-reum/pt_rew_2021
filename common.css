@@ -12,6 +12,14 @@ body{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+.return-top{
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .side-bar {
   position: fixed;
   top:0;
@@ -80,4 +88,5 @@ padding-left: 40px;
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  top:auto;
 }

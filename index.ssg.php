@@ -19,7 +19,9 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div style="background-image:url(https://picsum.photos/id/232/2200/700);"></div>
+        <div style="background-image:url(resource/img/bn_4_1.png);">
+            <div class="bn_4_2"><img src="resource/img/bn_4_2.png" alt=""></div>
+          </div>
         </div>
         <div class="swiper-slide">
           <div style="background-image:url(https://picsum.photos/id/232/2200/700);"></div>

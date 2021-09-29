@@ -14,7 +14,7 @@
 
 .swiper-box-1 .swiper-pagination {
   position: static;
-  height: 70px;
+  height: 80px;
   display: flex;
 }
 
@@ -38,7 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active > div {
@@ -54,7 +54,7 @@
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-0 > div::after {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to right, #966CBF 0%, #91D5FF 50%, #5CDBD3 100%);
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-1 > div::after {
@@ -62,8 +62,17 @@
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-2 > div::after {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to right, #FCA8A8 0%, #FCF0A8 30%, #97DC8C 50%,#00BFFF 70%, #CF9DFF 100%);
 }
+
+.swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-3 > div::after {
+  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+}
+
+.swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-4 > div::after {
+  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+}
+
 
 .bn_2_2{
   padding: 250px;
@@ -96,3 +105,12 @@ animation-duration: 1.7s;
 animation-iteration-count: infinite;
 position:relative;
 }
+
+.bn_4_2 {
+  padding: 220px;
+  left: 400px;
+  animation-name: floating;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  position:relative;
+  }
