@@ -1,5 +1,5 @@
 :root {
-  --swiper-box-1__slide-height: 500px;
+  --swiper-box-1__slide-height: 730px;
 }
 
 .swiper-box-1 .swiper {
@@ -9,11 +9,12 @@
 .swiper-box-1 .swiper .swiper-slide > div {
   height: var(--swiper-box-1__slide-height);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .swiper-box-1 .swiper-pagination {
   position: static;
-  height: 50px;
+  height: 80px;
   display: flex;
 }
 
@@ -37,7 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active > div {
@@ -49,16 +50,90 @@
   display:block;
   height:10px;
   width:100%;
+  margin-top: 20px;
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-0 > div::after {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to right, #966CBF 0%, #91D5FF 50%, #5CDBD3 100%);
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-1 > div::after {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
 }
 
 .swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-2 > div::after {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to right, #FCA8A8 0%, #FCF0A8 30%, #97DC8C 50%,#00BFFF 70%, #CF9DFF 100%);
 }
+
+.swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-3 > div::after {
+  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+}
+
+.swiper-box-1 .swiper-pagination .swiper-pagination-bullet.index-4 > div::after {
+  background-image: linear-gradient(to right, #97DC8C 0%, #CF9DFF 50%, #FCF0A8 100%);
+}
+
+
+.bn_2_2{
+  padding: 250px;
+  left: 370px;
+  animation-name: floating;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  position:relative;
+}
+
+@keyframes floating {
+  0% {
+    top:0px;
+  }
+  
+  50% {
+    top:30px;
+  }
+  
+  100% {
+    top:0px;
+  }
+}
+
+.bn_3_2 {
+padding: 150px;
+left: 480px;
+animation-name: floating;
+animation-duration: 1.7s;
+animation-iteration-count: infinite;
+position:relative;
+}
+
+.bn_4_2 {
+  padding: 220px;
+  left: 400px;
+  animation-name: floating;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  position:relative;
+  }
+
+  .bn_5_1{
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .bn_6_1{
+    width: 1620px;
+    margin-top: 150px;
+    position: absolute;
+    left: 300px;
+    right: auto;
+  }
+
+  .bn_7_1{
+    margin-top: 551px;
+    margin-left: 10px;
+  }
+
+  .bn_8_1{
+    margin-top: 140px;
+    margin-left: 10px;
+  }
