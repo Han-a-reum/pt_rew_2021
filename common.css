@@ -92,7 +92,8 @@ padding-left: 40px;
 }
 
 .foot{
-  margin-left: 336px;
+  display: flex;
+  justify-content: center;
   margin-top: 241px;
   margin-bottom: 40px;
 }

@@ -117,7 +117,8 @@ position:relative;
 
   .bn_5_1{
     margin-top: 50px;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .bn_6_1{
@@ -130,10 +131,12 @@ position:relative;
 
   .bn_7_1{
     margin-top: 551px;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .bn_8_1{
     margin-top: 140px;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
   }
